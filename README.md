@@ -6,66 +6,85 @@ https://github.com/ST10486658-Sampaul-Chauke/Assignment-2
 (YouTube Link)
 
 https://youtu.be/TyVqf_FMlgA
-https://youtu.be/TyVqf_FMlgA
 
 (Purpose of app)
 
-To help leaners gain knowlede on various subjects, so in this app users will answer flashcard questions on the subject of sound which will test thier responses and get feedback at the end.
+To help leaners gain knowledge on various subjects, so in this app users will answer flashcard questions on the subject of sound which will test their responses and get feedback at the end.
 
-(Design Conisderations)
+(Design Considerations)
 
-Within this app we have four screens the first one which is the welcome page scren one which contains questions which are to be displayed then we have the review page where you see your results and a short feedback and the last page which is the Review.
+Within this app we have four screens the first one which is the welcome page screen one which contains questions which are to be displayed then we have the review page where you see your results and a short feedback and the last page which is the Review.
 
 First Screen includes:
-TextView 
-here we have the Welcome message which is display to the users that are to use the application
 
-TextView 
-here we have what we call the App description which tells us a bit more on what the application is all about
+(WelcomeMessage)TextView 
 
-Start Button 
-This button helps in taking the user in to an other screen where they can start answering the questions which are displayed
-Exit Button
+Here we have the Welcome message which is display to the users that are to use the application
+
+App Description) TextView 
+
+Here we have what we call the App description which tells us a bit more on what the application is all about
+
+(StartApp) Button 
+
+This button helps in taking the user in to another screen where they can start answering the questions which are displayed
+
+(ExitApp) Button
+
 This button helps users exit the application with just a click of the button
 
 Second Screen Includes:
 
-TextView (Question Display)
+(Question Display) TextView 
+
 This textview is used to display the question use the users shall be answering
 
-True Button
+(True) Button
+
 This is just a button which just tells the program that the user chose true for the question displayed on the textview
 
-TextView 
-here on this TextView we have the result of either it is correct or incorrect
+(Result on question) TextView 
 
-False Button 
+Here on this TextView we have the result of either it is correct or incorrect
+
+(False) Button 
+
 This is just a button which just tells the program that the user chose false for the question displayed on the textview
 
-Button
+(Next Question Next Screen)Button
+
 This next button shall proceed to the next question till the last question then to the next Screen once all questions are attempted 
 
 Third Screen Includes:
-TextView
-This here shall only display the the total achieved and the total question
 
-Textview
-This textview is feedback the user will recevice one he has finished all questions
+(Score)TextView
 
-Review Question Button
+This here shall only display the total achieved and the total question
+
+(Feedback on users Results)Textview
+
+This textview is feedback the user will receive one he has finished all questions
+
+(Review on Question) Button
+
 This button takes the user to a new Screen where the user will see the questions and answers
 
-Exit Button
+(ExitApp) Button
+
 This button once shown and clicked will exit the application
 
 Then the last Screen Includes:
-TextView
-this is where the question and answers will be displayed for the use
 
-Restart Button
+(Feedback on Question)TextView
+
+This is where the question and answers will be displayed for the use
+
+(RestartApp) Button
+
 This button will take the user to the first Screen so that they can start the application again and redo the quiz
 
-Exit Button
+(ExitApp) Button
+
 This will once clicked take the user out of the application
 
 
